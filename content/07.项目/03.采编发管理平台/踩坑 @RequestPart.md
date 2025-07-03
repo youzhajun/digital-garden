@@ -14,9 +14,9 @@ date: 2025-03-05
 OK！一切就绪，发送请求。。。。 error 报错。检查再三，发现需要单独设置 `form-data` 中 `data` 的 `context-type` 属性！结果偏偏 `apifox` 与 `postman` 中这个设置项很是偏僻！（攥拳很气了）
 
 
-![](http://oss.youzhajun.online/obsidian/20250611163925160.png)
+![[踩坑 @RequestPart-1751513344372.png]]
 
-![](http://oss.youzhajun.online/obsidian/20250611163925159.png)
+![[踩坑 @RequestPart-1751513359642.png]]
 
 ## 是什么？能做什么？
 

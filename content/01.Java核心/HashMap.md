@@ -6,7 +6,7 @@ tags:
   - java核心
 date: 2021-08-06
 ---
-[[advanced/00.java核心]]
+
 # HashMap中的属性
 - 默认容量 
 	- `static final int *DEFAULT_INITIAL_CAPACITY* = 1 << 4; *// aka 16*`

@@ -9,7 +9,7 @@ date: 2023-06-02
 
 通过 `show engines` 命令查看支持的存储引擎。
 
-![](https://obsidian-shanxin.oss-cn-beijing.aliyuncs.com/obsidian/20250616143809800.jpg)
+![[MySQL相关问题-1751513308672.jpg]]
 
 - **InnoDB**：默认的存储引擎，支持事务、崩溃恢复、行级锁，适用于高并发场景
 - **MyISAM**： mysql 5版本之前默认的存储引擎。不支持事务、不支持外键

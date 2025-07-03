@@ -6,7 +6,7 @@ tags:
   - 中间件
 date: 2023-02-10
 ---
- # Spring 中 Bean 线程安全吗？
+# Spring 中 Bean 线程安全吗？
 
 **非线程安全**。默认情况下 `spring bean` 为单例，所有线程共享一个 `bean`。
 
