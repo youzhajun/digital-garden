@@ -8,16 +8,16 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "数字花园🪴",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    locale: "zh-CN",
+    baseUrl: "blog.youzhajun.onlone",
+    ignorePatterns: ["private", "templates", ".obsidian", "999.templates"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
@@ -51,7 +51,7 @@ const config: QuartzConfig = {
           textHighlight: "#b3aa0288",
         },
       },
-    },
+    }
   },
   plugins: {
     transformers: [
