@@ -157,3 +157,11 @@ static final class TreeNode<K,V> extends LinkedHashMap.Entry<K,V> {
 3. 按照遍历顺序，将这些`Node`节点重新连接成一个单向链表
 4. 将桶的头指针指向新链表的头节点。
 
+
+# HashMap 在多线程情况下会出现的问题
+
+- 多线程会出现死循环，导致 cpu 100%
+- 共享 `map` 线程安全问题
+- `put` 与 `get` 操作并发操作时，可能 `get` 的值为 `null`
+
+
