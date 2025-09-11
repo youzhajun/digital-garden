@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"ee21309baf08a96a","type":"text","text":"信息化发展","x":-125,"y":-30,"width":165,"height":50},
+		{"id":"5c304befba710c87","type":"text","text":"信息与信息化","x":220,"y":-263,"width":250,"height":50,"color":"2"},
+		{"id":"4a156d29eba075a7","type":"text","text":"现代基础设施","x":220,"y":-155,"width":250,"height":60,"color":"2"},
+		{"id":"9c047eac856dc97c","type":"text","text":"产业现代化","x":220,"y":-35,"width":250,"height":60,"color":"2"},
+		{"id":"1f794f4d1ad667c5","type":"text","text":"数字中国","x":220,"y":105,"width":250,"height":60,"color":"2"},
+		{"id":"1b1765ac9fed8730","type":"text","text":"数字化转型与元宇宙","x":220,"y":245,"width":250,"height":60,"color":"2"},
+		{"id":"53563c3b3c06296b","x":597,"y":45,"width":250,"height":60,"type":"text","text":"服务业"},
+		{"id":"b1e8335a2eb93f90","x":597,"y":-125,"width":250,"height":60,"type":"text","text":"农业"},
+		{"id":"c277260ea9ba3a7f","x":597,"y":-35,"width":250,"height":60,"type":"text","text":"工业"}
+	],
+	"edges":[
+		{"id":"98001da340e25371","fromNode":"ee21309baf08a96a","fromSide":"right","toNode":"5c304befba710c87","toSide":"left"},
+		{"id":"73ba692725f0845f","fromNode":"ee21309baf08a96a","fromSide":"right","toNode":"4a156d29eba075a7","toSide":"left"},
+		{"id":"8e572133591f8167","fromNode":"ee21309baf08a96a","fromSide":"right","toNode":"9c047eac856dc97c","toSide":"left"},
+		{"id":"8066b3324e0ba168","fromNode":"ee21309baf08a96a","fromSide":"right","toNode":"1f794f4d1ad667c5","toSide":"left"},
+		{"id":"7f892d1bdbbdfdf3","fromNode":"ee21309baf08a96a","fromSide":"right","toNode":"1b1765ac9fed8730","toSide":"left"},
+		{"id":"fef557959a8a089b","fromNode":"9c047eac856dc97c","fromSide":"right","toNode":"b1e8335a2eb93f90","toSide":"left"},
+		{"id":"63a891ce1795c910","fromNode":"9c047eac856dc97c","fromSide":"right","toNode":"c277260ea9ba3a7f","toSide":"left"},
+		{"id":"9a79e0b1608ef2fb","fromNode":"9c047eac856dc97c","fromSide":"right","toNode":"53563c3b3c06296b","toSide":"left"}
+	]
+}
